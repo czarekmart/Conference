@@ -19,6 +19,7 @@ namespace Conference.Controllers
             return View(sessions);
         }
 
+		//********************************************
 		// GET: Session/Create
 		[HttpGet()]
 		public ActionResult Create()
